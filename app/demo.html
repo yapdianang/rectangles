@@ -1,0 +1,64 @@
+<html>
+   <head>
+<!-- loads the style, javascript and design for web app. -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="Home Page for 2 Rectangles">
+      <meta name="author" content="Dian Ang Yap">
+
+      <title>Self Driving Car Simulator</title>
+      <link href="../sources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="../css/full-slider.css" rel="stylesheet">
+      <title>Self Driving Car Simulator</title>
+      <script type = "text/javascript"
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+      </script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+      <link rel="stylesheet" type="text/css" href="main.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="Rectangle.js"></script>
+   </head>
+
+   <body>
+    <div id="backgroundContainer">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Self Driving Car Simulator</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- Bounding bexes i.e. 2 rectangles are rendered here -->
+      <div id="rect1">
+        <img style='height: 100%; width: 100%; object-fit: fill' src='../sources/images/car2.png' />
+      </div><br/>
+      <div id="rect2">
+        <img style='height: 100%; width: 100%; object-fit: fill' src='../sources/images/car1.png' />
+
+      </div>
+      <section class="py-5" id="about">
+      <div class="container"></div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="py-5 bg-dark" id="contact_footer">
+      <div class="container">
+        <p class="m-0 text-center text-white"> <span>Collision detected:    </span><span id="result">false</span></p>
+        <p class="m-0 text-center text-white"> <span>Distance between cars: </span><span id="car1Distance">0</span> units</p>
+      </div>
+      <!-- /.container -->
+      </footer>
+      </div>
+   </body>
+</html>

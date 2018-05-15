@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+<!-- Loads dependencies to be used -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Home Page for 2 Rectangles">
+    <meta name="author" content="Dian Ang Yap">
+    <title>Self Driving Car Simulator</title>
+    <link href="sources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Self Driving Car Simulator</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="app/demo.html">Demo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- Slide show -->
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One -->
+          <div class="carousel-item active" style="background-image: url('sources/images/carBoxes.png')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Concept</h3>
+              <p>Real time object detection, as visualized by self-driving cars.</p>
+            </div>
+          </div>
+          <!-- Slide Two -->
+          <div class="carousel-item" style="background-image: url('sources/images/concept.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Demonstration</h3>
+              <p>Illustrates image-detection algorithms bounded by boxes, with information of L2 distance.</p>
+            </div>
+          </div>
+          <!-- Slide Three  -->
+          <div class="carousel-item" style="background-image: url('sources/images/background.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Design Philosophy</h3>
+              <p>Alerts were considered to notify users, but rides would be disruptive with pop-ups. We solely prioritize more streamlined notifications.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="py-5" id="about">
+      <div class="container">
+        <h1>Self Driving Car: A Simple Visualization</h1>
+        <br>
+        <p>Designed with Javascript and JQuery. Bounding boxes are inspired by YOLO Image Detection.</p>
+        <br>
+        <p>The content can be found in <code>app/</code> folder. Find out more under <code>Demo</code> in the header section. </p>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark" id="contact">
+      <div class="container">
+        <p class="m-0 text-center text-white">Dian Ang Yap, 2018.</p>
+        <p class="m-0 text-center text-white">dayap@stanford.edu</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="sources/jquery/jquery.min.js"></script>
+    <script src="sources/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
+    <!-- Design Inspiration: David Miller -->
