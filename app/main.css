@@ -1,17 +1,17 @@
 #rect1 {
     position: absolute;
-    width: 150px;
-    height: 90px;
-    left: 33%;
-    top: 25%;
+    width: 100px;
+    height: 60px;
+    left: 37.5%;
+    top: 57%;
     border: solid yellow 5px;
 }
 #rect2 {
     position: absolute;
-    width: 200px;
-    height: 140px;
-    right: 20%;
-    top: 30%;
+    width: 250px;
+    height: 160px;
+    right: 13%;
+    top: 60%;
     border: solid yellow 5px;
 }
 
@@ -23,10 +23,10 @@
 
 #backgroundContainer{
     height: 100%;
-    background-image: url('../sources/images/nocar.jpg');
+    background-image: url('../sources/images/road.gif');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 86%;
 }
 
 #contact_footer{
