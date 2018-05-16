@@ -2,8 +2,8 @@
     position: absolute;
     width: 100px;
     height: 60px;
-    left: 37.5%;
-    top: 57%;
+    left: 37%;
+    top: 63%;
     border: solid yellow 5px;
 }
 #rect2 {
@@ -11,7 +11,7 @@
     width: 250px;
     height: 160px;
     right: 13%;
-    top: 60%;
+    top: 65%;
     border: solid yellow 5px;
 }
 
@@ -26,7 +26,8 @@
     background-image: url('../sources/images/road.gif');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 95%;
+    background-position-y: 50px;
 }
 
 #contact_footer{
