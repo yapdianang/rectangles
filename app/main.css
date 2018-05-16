@@ -1,15 +1,15 @@
 #rect1 {
     position: absolute;
-    width: 500px;
-    height: 300px;
-    left: 8%;
-    top: 32%;
+    width: 150px;
+    height: 90px;
+    left: 33%;
+    top: 25%;
     border: solid yellow 5px;
 }
 #rect2 {
     position: absolute;
-    width: 250px;
-    height: 170px;
+    width: 200px;
+    height: 140px;
     right: 20%;
     top: 30%;
     border: solid yellow 5px;
